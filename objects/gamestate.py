@@ -3,5 +3,5 @@ import pygame
 
 class GameState(Enum):
     QUIT = -1
-    MAIN_MENU = 0
+    START = 0
     NEW_GAME = 1

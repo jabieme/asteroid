@@ -1,8 +1,12 @@
-from circleshape import CircleShape
+from objects.circleshape import CircleShape
 import pygame
 from constants import *
 
 class Bomb(CircleShape):
+    """
+    Bomb class for allowing player to shoot bomb objects that freeze and expanded to a 
+    max radius on contact.
+    """
     def __init__(self, x,y):
         super().__init__(x,y,BOMB_RADIUS)
         self.bomb = None

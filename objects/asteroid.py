@@ -1,6 +1,6 @@
 import pygame
-from circleshape import CircleShape
-from logger import log_event
+from objects.circleshape import CircleShape
+from objects.logger import log_event
 from constants import *
 import random
 
